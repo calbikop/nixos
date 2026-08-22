@@ -1,2 +1,5 @@
-# nixos
-My nixos configuration. I didn't plan on sharing, it's just an easy way for me to fetch the script from the live ISO.
+# NixOS
+
+Configuración declarativa de NixOS para un MSI Thin GF63 12VF con impermanence, Hyprland y Noctalia.
+
+El flake instala Noctalia mediante su módulo NixOS y habilita los servicios recomendados para sus funciones de red, Bluetooth, batería y perfiles de energía. La configuración del escritorio se mantiene en NixOS y no depende de dotfiles externos.
